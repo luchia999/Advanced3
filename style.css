@@ -1,11 +1,3 @@
-
-[href*= "httns"]{
-    border: 2px solid #de2424 ;
-}
-
-a {
-    color: #0c0b0b;
-    text-decoration: none;
-    font-size: 20px;
-    transform: all .2s;
-}
+a[href*="download"] { 
+   background: url(/example/image/if_download.png) no-repeat 100% 50%; 
+  } 
