@@ -1,3 +1,17 @@
-a[href*="download"] { 
-   background: url(/example/image/if_download.png) no-repeat 100% 50%; 
-  } 
+a {
+   text-decoration: none;
+   color: black;
+   }
+   
+a[href$=".pdf"][download]::before {
+   content: "";
+   width: 2rem;
+   height: 2rem;
+   background-image: url(icon-pdf.svg);
+   background-size: cover;
+   }
+
+a {
+   display: flex;
+   align-items: center;
+   }
