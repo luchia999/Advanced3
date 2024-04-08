@@ -5,8 +5,8 @@ a {
    
 a[href$=".pdf"][download]::before {
    content: "";
-   width: 2rem;
-   height: 2rem;
+   width: 3rem;
+   height: 3rem;
    background-image: url(icon-pdf.svg);
    background-size: cover;
    }
